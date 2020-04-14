@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+svg{
+  stroke: black;
+  /* stroke-width: 1px; */
+  fill: none;
+}
+
+text{
+  stroke: none;
+  fill: black;
+  font-family: arial;
+  font-size: 11px;
+}
+g path.area{
+  stroke:none;
+}
+g path.confirmed{
+fill: lightblue;
+}
+g path.deaths{
+fill: gray;
+}
+g path.recovered{
+fill: lightpink;
+}
+
+
+
+
+g.hidden line,
+g.hidden path{
+  display: none
+}
